@@ -33,3 +33,7 @@ Restful Booker
 ## Validações
 
 Durante os testes, são realizadas validações de status HTTP e dos dados retornados pela API, de acordo com cada cenário.
+
+## Evidências dos testes
+
+Na pasta "evidências" estão disponíveis prints das execuções dos cenários automatizados no Cypress.
