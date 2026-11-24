@@ -2,9 +2,9 @@ describe ('(Treinamento) testes de api na restfull broker - reservas de hospedag
     it('Deve atualizar reserva',()=>{
         cy.request({
             method:'PUT',
-            url:'https://restful-booker.herokuapp.com/booking/1573',
+            url:'https://restful-booker.herokuapp.com/booking/7',
             headers:{
-                cookie: 'token=3bb7c1557260106'
+                cookie: 'token=cd946208d7b840c'
             },
             body:{
                   firstname: 'Joao',
